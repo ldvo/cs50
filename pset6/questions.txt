@@ -1,0 +1,11 @@
+0.  Pneumonoultramicroscopicsilicovolcanoconiosis is, according to Oxford Dictionaries, “a long word said to mean a lung disease caused by inhaling very fine ash and sand dust.”
+1.  Returns resource usage measures for who.
+2.  16
+3.  Copying them would waste memory, if we pass them by reference it's like making a new pointer to the existing copy.
+4.  Main reads one character at a time and writes it to the array WORD until it reaches a non alphabetical character or the maximum word lenght is reached. If the non alphabetical character is a number the complete word is ignored or if it is a space then it checks if it is misspelled. The loop ends when it reaches the EOF character.
+5.  If you use fscanf then you won't be able to discard as quickly words with numbers because it while scan the whole word instead of stopping at the number. Also, you must allocate memory for it and words in text documents have no limit so we could get a Segmentation fault.
+6.  So that they can't be modified by a function.
+7.  TODO
+8.  TODO
+9.  TODO
+10. TODOasdasd

@@ -1,0 +1,1 @@
+You bought <?= htmlspecialchars($shares) ?> shares from <?= htmlspecialchars($name) ?> (<?= htmlspecialchars($symbol) ?>) for $<?= htmlspecialchars($price) ?>. You now have $<?= htmlspecialchars($balance) ?> in cash.

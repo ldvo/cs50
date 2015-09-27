@@ -1,0 +1,19 @@
+0.  BMP, JPEG and PNG support up to 16,777,216 colors. GIF supports up to 256 colors.
+1.  GIF.
+2.  With lossless all original data can be recovered when the file is uncompressed, and lossy permanently eliminates certain parts of information.
+3.  JPEG.
+4.  First, the system modifies the filename's first character in the file's directory entry to signal that the file has been deleted and that the directory can be recycled. Second, the system moves all of the files FAT clusters to the hard drive's list of free clusters. The actual file data is never touched.
+5.  Overwrite the data on the disk with NULL chars or with random data.
+6.  It is a header file that declares various types o ints with specified widths.
+7.  To specify the width of an int.
+8.  8 bits, 32 bits, 32 bits and 16 bits.
+9.  "B" and then "M" in 1 byte ASCII encoding.
+10. bfSize is the size of the entire file in bytes, biSize is just the size of the BITMAPINFOHEADER in bytes.
+11. If biHeight is negative, the bitmap is a top-down DIB with the origin at the upper left corner.
+12. biBitCount.
+13. When the output file could not be created (for example, if the user has no write permission in that folder).
+14. So that it reads 1 byte at a time.
+15. 3
+16. Moves the file pointer to a specified location.
+17. Indicates the current position of the position pointer.
+18. Milo Banana dun it.

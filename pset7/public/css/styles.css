@@ -1,0 +1,128 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+a:link {color:#818181;}      /* unvisited link */
+a:visited {color:#818181;}  /* visited link */
+a:hover {color:#B0B0B0; text-decoration: none;}  /* mouse over link */
+a:active {color:#B0B0B0;}  /* selected link */
+
+@font-face
+{
+font-family: Montserrat;
+src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+body
+{
+    background-image: url('/img/bgimg.png');
+    font-size: 12pt;
+    font-family: Montserrat;
+}
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: absolute;
+    top: 16.5%;
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+#top
+{
+    text-align: center;
+    width: 100%;
+    background-color: #800000;
+    position: fixed;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+#table
+{
+    margin: 0px auto;
+    background-color: #F0F0F0;
+    border-style: solid;
+    border-color: #A0A0A0;
+    border-width: 1px;
+    width: 800px;
+    text-align: center;
+}
+
+.tablecell
+{
+    margin: 0px auto;
+    background-color: #F0F0F0;
+    border-style: solid;
+    border-color: #A0A0A0;
+    border-width: 1px;
+}
+
+#logo
+{
+    width: 100%;
+}
+
+.boton
+{
+    position: absolute;
+    top: 175px;
+    left:50%;
+    font-size: 20px;
+    z-index: 10;
+}
+
+#index 
+{
+    margin-left: -340px;
+}
+
+#quote
+{
+    margin-left: -220px;
+}
+
+#buy 
+{
+    margin-left: -100px;
+}
+
+#sell 
+{
+    margin-left: 20px;
+}
+
+#history 
+{
+    margin-left: 120px;
+}
+
+#password 
+{
+    margin-left: 250px;
+}
